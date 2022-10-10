@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body { 
+  background-image: url('jeruk.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center; 
+}
+
+.img-content {
+  float: right;
+  width: 33.33%;
+  padding: 5px;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+  text-align: center;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+#example1 {
+  border: 2px solid red;
+  padding: 20px;
+  border-radius: 25px;
+}
+
+#example2 {
+  border: 2px solid red;
+  padding: 20px;
+  border-radius: 25px;
+}
+</style>
+<body>
+
+<h1 style="color: magenta; text-align: center;"> WEB PROGRAMMING PERTEMUAN KE 5</h1>
+
+<br>
+
+<ul>
+  <li><a href="#">foto</a></li>
+  <li><a href="#">foto</a></li>
+  <li><a href="#">foto</a></li>
+  <li><a href="#">foto</a></li>
+</ul>
+
+<div id="example1">
+  <p style="color: white; text-align: center; font-size:20px;">The border-radius property defines the radius of the element's corners.</p>
+</div>
+
+<h2>border-radius: 50px 20px:</h2>
+
+<div id="example2">
+  <p style="color: lightgreen; text-align: center; font-size:20px;">If two values are set; the first one is for the top-left and bottom-right corner, the second one for the top-right and bottom-left corner.</p>
+</div>
+
+<img src="naga.jpg" style="width:50%;height:50%;">
+<audio controls autoplay>
+  <source src="pikasonic.ogg" type="audio/ogg">
+  <source src="pikasonic.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>
+</body>
+</html>
