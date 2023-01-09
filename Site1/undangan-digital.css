@@ -1,0 +1,93 @@
+ .u-section-1 {
+  background-image: none;
+}
+
+.u-section-1 .u-sheet-1 {
+  min-height: 650px;
+}
+
+.u-section-1 .u-text-1 {
+  width: 230px;
+  margin: 23px auto 0;
+}
+
+.u-section-1 .u-image-1 {
+  width: 452px;
+  height: 452px;
+  margin: 23px auto 0;
+}
+
+.u-section-1 .u-text-2 {
+  font-size: 3rem;
+  font-weight: 700;
+  margin: -354px 0 60px;
+}
+
+@media (max-width: 1199px) {
+  .u-section-1 .u-text-1 {
+    margin-left: 333px;
+    font-weight: bold;
+    font-size: 1.25rem;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-1 .u-text-1 {
+    margin-left: 255px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-1 .u-text-1 {
+    margin-left: 191px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 538px;
+  }
+
+  .u-section-1 .u-text-1 {
+    margin-left: 120px;
+  }
+
+  .u-section-1 .u-image-1 {
+    width: 340px;
+    height: 340px;
+  }
+
+  .u-section-1 .u-text-2 {
+    margin-top: -242px;
+  }
+} .u-section-2 {
+  background-image: url("images/pantai.jpg");
+}
+
+.u-section-2 .u-sheet-1 {
+  min-height: 843px;
+}
+
+@media (max-width: 1199px) {
+  .u-section-2 .u-sheet-1 {
+    min-height: 695px;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-2 .u-sheet-1 {
+    min-height: 532px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-2 .u-sheet-1 {
+    min-height: 399px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-2 .u-sheet-1 {
+    min-height: 251px;
+  }
+}
